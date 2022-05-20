@@ -28,6 +28,12 @@ An apple costs $1, a pear $2.
 
 When $a \ne 0$ there.
 
+When $a + b$ there.
+
+When $1 2$ there.
+
+When $1 $2 there.
+
 #### Copying an pasting from math blocks
 
 #### Math in lists
