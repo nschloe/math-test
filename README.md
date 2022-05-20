@@ -44,3 +44,7 @@ $\log xy =
 \log x + \log y$
 
 #### Math in titles $\exp(i\pi) + 1 = 0$
+
+#### Font is too small
+
+A $A$ x $x$
