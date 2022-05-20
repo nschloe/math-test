@@ -1,11 +1,3 @@
-$$
-\newcommand\xxx{XXX}
-$$
-
-$$
-\xxx + 1
-$$
-
 # Test page for math in Markdown
 
 ## What works
@@ -27,6 +19,35 @@ $$
 Including the _Preview_ tab, not including the title.
 See https://github.com/nschloe/math-test/issues/1,
 https://github.com/nschloe/math-test/discussions/2.
+
+#### Global newcommands
+
+You can put `\newcommand`s in a separate block at the beginning of the page and
+have all other math blocks understand the commands.
+
+```
+$$
+\newcommand\xxx{XXX}
+$$
+
+Inline: $\xxx + h1$
+
+Display:
+$$
+\xxx + 1
+$$
+```
+
+$$
+\newcommand\xxx{XXX}
+$$
+
+Inline: $\xxx + h1$
+
+Display:
+$$
+\xxx + 1
+$$
 
 ## What doesn't work
 
