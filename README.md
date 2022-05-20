@@ -1,6 +1,6 @@
-## Math test
+# Test page for math in Markdown
 
-### What works
+## What works
 
 #### Inline math
 
@@ -21,6 +21,18 @@ See https://github.com/nschloe/math-test/issues/1,
 https://github.com/nschloe/math-test/discussions/2.
 
 ## What doesn't work
+
+#### Math in lists
+
+- $E = mc^2$
+- $a^2 + b^2 = c^2$
+
+1. $V - E + F = 2$
+2. $i^2 = -1$
+
+#### Math in titles
+
+##### This is a test title $\exp(i\pi) + 1 = 0$
 
 #### The terminating $ can't be followed by an alphanumeric
 
@@ -46,20 +58,10 @@ Let's try $x $y $ here.
 
 #### Copying an pasting from math blocks
 
-#### Math in lists
-
-- $E = mc^2$
-- $a^2 + b^2 = c^2$
-
-1. $V - E + F = 2$
-2. $i^2 = -1$
-
 #### Inline math spanned over multiple lines
 
 $\log xy =
 \log x + \log y$
-
-#### Math in titles $\exp(i\pi) + 1 = 0$
 
 #### Font is too small
 
