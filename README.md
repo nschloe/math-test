@@ -42,6 +42,10 @@ When $x $2 there.
 
 When $x $y there.
 
+When $a + b$
+
+When $a + b$there.
+
 #### Copying an pasting from math blocks
 
 #### Math in lists
