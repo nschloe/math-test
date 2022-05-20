@@ -34,6 +34,10 @@ When $1 2$ there.
 
 When $1 $2 there.
 
+When $1 $ 2 there.
+
+When$1 $ 2 there.
+
 #### Copying an pasting from math blocks
 
 #### Math in lists
