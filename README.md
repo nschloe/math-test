@@ -25,24 +25,23 @@ https://github.com/nschloe/math-test/discussions/2.
 You can put `\newcommand`s in a separate block at the beginning of the page and
 have all other math blocks understand the commands.
 
-```
+```markdown
 $$
-\newcommand\xxx{XXX}
+\newcommand\myexp[1]{e^{#1}}
 $$
 
-Inline: $\xxx + 1$
+Inline: $\myexp{i}$
 
 Display:
-$$
-\xxx + 1
-$$
+
+$$\myexp{i}$$
 ```
 
 $$
 \newcommand\myexp[1]{e^{#1}}
 $$
 
-Inline: $\exp{i}$
+Inline: $\myexp{i}$
 
 Display:
 
