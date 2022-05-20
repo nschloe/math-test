@@ -94,4 +94,4 @@ $\log xy =
 
 ABC $ABC XYZ$ XYZ
 
-abc $abc xyz$ XYZ
+abc $abc xyz$ xyz
