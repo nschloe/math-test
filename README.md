@@ -103,7 +103,7 @@ Let $U$ be an open subset of the complex plane $\mathbb{C}$, and suppose the clo
 disk $D$ defined as
 
 $$
-D = \bigl\{z:|z-z_{0}|\leq r\bigr\}
+D = \{z:|z-z_{0}|\leq r\}
 $$
 
 is completely contained in $U$. Let $f: U\to\mathbb{C}$ be a holomorphic function,
