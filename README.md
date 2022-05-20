@@ -38,6 +38,10 @@ When $1 $ 2 there.
 
 When$1 $ 2 there.
 
+When $x $2 there.
+
+When $x $y there.
+
 #### Copying an pasting from math blocks
 
 #### Math in lists
