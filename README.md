@@ -92,4 +92,6 @@ $\log xy =
 
 #### Font is too small
 
-A $A$ x $x$
+ABC $ABC XYZ$ XYZ
+
+abc $abc xyz$ XYZ
