@@ -15,6 +15,11 @@ G \frac{m_1m_2}{r^2}$$
 
 ## What doesn't work
 
+#### Using the regular dollar sign
+
+An apple costs $1, a pear $2.
+
+
 #### Math in lists
 
 - $E = mc^2$
