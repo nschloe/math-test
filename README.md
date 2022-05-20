@@ -22,6 +22,16 @@ https://github.com/nschloe/math-test/discussions/2.
 
 ## What doesn't work
 
+#### The terminating $ must be followed by whitespace
+
+This is rendered as math:
+```markdown
+An apple costs $1, a pear $.
+```
+An apple costs $1, a pear $.
+
+
+
 #### Using the regular dollar sign
 
 An apple costs $1, a pear $2.
