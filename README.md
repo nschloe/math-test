@@ -1,3 +1,11 @@
+$$
+\newcommand\xxx{XXX}
+$$
+
+$$
+\xxx + 1
+$$
+
 # Test page for math in Markdown
 
 ## What works
