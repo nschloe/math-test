@@ -2,16 +2,24 @@
 
 ### What works
 
-##### Inline math
+#### Inline math
 
 When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
 Display math spanned over multiple lines:
 
-$$F =
-G \frac{m_1m_2}{r^2}$$
+$$
+F =
+G \frac{m_1m_2}{r^2}
+$$
 
+#### Math in issues and discussions
+
+Not in titles though, see
+
+- https://github.com/nschloe/math-test/issues/1
+- https://github.com/nschloe/math-test/discussions/2
 
 ## What doesn't work
 
@@ -19,6 +27,7 @@ G \frac{m_1m_2}{r^2}$$
 
 An apple costs $1, a pear $2.
 
+#### Copying an pasting from math blocks
 
 #### Math in lists
 
