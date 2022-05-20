@@ -16,16 +16,17 @@ $$
 
 #### Math in issues and discussions
 
-Not in titles though, see
-
-- https://github.com/nschloe/math-test/issues/1
-- https://github.com/nschloe/math-test/discussions/2
+Including the _Preview_ tab, not including the title.
+See https://github.com/nschloe/math-test/issues/1,
+https://github.com/nschloe/math-test/discussions/2.
 
 ## What doesn't work
 
 #### Using the regular dollar sign
 
 An apple costs $1, a pear $2.
+
+When $a \ne 0$ there.
 
 #### Copying an pasting from math blocks
 
