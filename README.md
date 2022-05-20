@@ -46,6 +46,8 @@ When $a + b$
 
 When $a + b$there.
 
+When $x $y $ there.
+
 #### Copying an pasting from math blocks
 
 #### Math in lists
