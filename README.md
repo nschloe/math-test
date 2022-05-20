@@ -30,7 +30,7 @@ $$
 \newcommand\xxx{XXX}
 $$
 
-Inline: $\xxx + h1$
+Inline: $\xxx + 1$
 
 Display:
 $$
@@ -42,12 +42,11 @@ $$
 \newcommand\xxx{XXX}
 $$
 
-Inline: $\xxx + h1$
+Inline: $\xxx + 1$
 
 Display:
-$$
-\xxx + 1
-$$
+
+$$\xxx + 1$$
 
 ## What doesn't work
 
