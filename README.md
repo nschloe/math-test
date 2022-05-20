@@ -22,7 +22,7 @@ https://github.com/nschloe/math-test/discussions/2.
 
 ## What doesn't work
 
-#### The terminating $ must be followed by whitespace
+#### The terminating $ can't be followed by an alphanumeric
 
 This is rendered as math:
 ```markdown
@@ -30,33 +30,19 @@ An apple costs $1, a pear $.
 ```
 An apple costs $1, a pear $.
 
-
-
-#### Using the regular dollar sign
-
+This isn't:
+```markdown
+An apple costs $1, a pear $2.
+```
 An apple costs $1, a pear $2.
 
-When $a \ne 0$ there.
+This leads to weird behavior like
 
-When $a + b$ there.
+```markdown
+Let's try $x $y $ here.
+```
+Let's try $x $y $ here.
 
-When $1 2$ there.
-
-When $1 $2 there.
-
-When $1 $ 2 there.
-
-When$1 $ 2 there.
-
-When $x $2 there.
-
-When $x $y there.
-
-When $a + b$
-
-When $a + b$there.
-
-When $x $y $ there.
 
 #### Copying an pasting from math blocks
 
