@@ -39,14 +39,14 @@ $$
 ```
 
 $$
-\newcommand\xxx{XXX}
+\newcommand\myexp[1]{e^{#1}}
 $$
 
-Inline: $\xxx + 1$
+Inline: $\exp{i}$
 
 Display:
 
-$$\xxx + 1$$
+$$\myexp{i}$$
 
 ## What doesn't work
 
