@@ -1,12 +1,15 @@
 # Test page for math in Markdown
 
-##### Inline and display math
+#### Inline and display math
 
 When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
 
 $$
 x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
 $$
+
+Inline math spanned over multiple lines: $\log xy =
+\log x + \log y$
 
 Display math spanned over multiple lines:
 
@@ -15,7 +18,7 @@ F =
 G \frac{m_1m_2}{r^2}
 $$
 
-##### Math in lists
+#### Math in lists
 
 - $E = mc^2$
 - $a^2 + b^2 = c^2$
@@ -23,9 +26,9 @@ $$
 1. $V - E + F = 2$
 2. $i^2 = -1$
 
-##### Math in titles $\exp(i\pi) + 1 = 0$
+#### Math in titles $\exp(i\pi) + 1 = 0$
 
-##### Math in tables
+#### Math in tables
 
 The Butcher tableau for this ERK method is
 
@@ -36,7 +39,7 @@ The Butcher tableau for this ERK method is
 |----------|:-------------:|------:|
 | | $1/6$ | $1/3$ | $1/3$ | $1/6$ |
 
-##### Global newcommands
+#### Global newcommands
 
 Newcommand block (no output):
 
@@ -52,7 +55,7 @@ $$
 \myexp{i}
 $$
 
-##### $-confusion
+#### $-confusion
 
 - ```markdown
   An apple costs $1, a pear $.
@@ -71,18 +74,14 @@ $$
   ```
   Let's try $x $y $ here.
 
-##### Inline math spanned over multiple lines
 
-$\log xy =
-\log x + \log y$
-
-##### Font size comparison
+#### Font size comparison
 
 ABC $ABC XYZ$ XYZ
 
 abc $abc xyz$ xyz
 
-##### Cauchy's Theorem
+#### Cauchy's Theorem
 
 Let $U$ be an open subset of the complex plane $\mathbb{C}$, and suppose the
 closed disk $D$ defined as
