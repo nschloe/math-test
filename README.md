@@ -111,7 +111,7 @@ and let $\gamma$ be the circle, oriented counterclockwise, forming the boundary 
 $D$. Then for every $a$ in the interior of $D$,
 
 $$
-f(a) = \frac{1}{2\pi i} \oint_{\gamma}\frac{f(z)}{z-a} dz.
+f(a) = \frac{1}{2\pi i} \oint_{\gamma}\frac{f(z)}{z-a}\,dz.
 $$
 
 
