@@ -26,25 +26,6 @@ $$
 1. $V - E + F = 2$
 2. $i^2 = -1$
 
-#### Other LaTeX commands
-
-- ```
-  $$
-  \{n\in\mathbb{N}:\: n \text{even}\}
-  $$
-  ```
-
-  $$
-  \{n\in\mathbb{N}:\: n \text{even}\}
-  $$
-
-- ```mathdown
-  a <b > c
-  ```
-  $$
-  a <b > c
-  $$
-
 #### Math in titles $\exp(i\pi) + 1 = 0$
 
 #### Math in tables
@@ -127,3 +108,23 @@ $D$. Then for every $a$ in the interior of $D$,
 $$
 f(a) = \frac{1}{2\pi i} \oint_{\gamma}\frac{f(z)}{z-a}\,dz.
 $$
+
+#### Other LaTeX commands
+
+- ```
+  $$
+  \{n\in\mathbb{N}:\: n \text{even}\}
+  $$
+  ```
+
+  $$
+  \{n\in\mathbb{N}:\: n \text{even}\}
+  $$
+
+
+- ```mathdown
+  a <b > c
+  ```
+  $$
+  a <b > c
+  $$
