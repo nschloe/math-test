@@ -26,6 +26,25 @@ $$
 1. $V - E + F = 2$
 2. $i^2 = -1$
 
+#### Other LaTeX commands
+
+- ```
+  $$
+  \{n\in\mathbb{N}:\: n \text{even}\}
+  $$
+  ```
+
+  $$
+  \{n\in\mathbb{N}:\: n \text{even}\}
+  $$
+
+- ```mathdown
+  a <b > c
+  ```
+  $$
+  a <b > c
+  $$
+
 #### Math in titles $\exp(i\pi) + 1 = 0$
 
 #### Math in tables
@@ -72,7 +91,19 @@ $$
 - ```markdown
   Let's try $x $y $ here.
   ```
+
   Let's try $x $y $ here.
+
+- ```markdown
+  $x = \text{my $y$}$
+  ```
+
+  $x = \text{my $y$}$
+
+- ```markdown
+  $x =\$$
+  ```
+  $x =\$$
 
 #### Font size comparison
 
