@@ -128,3 +128,15 @@ abc $abc xyz$ xyz
   $$
   a <b > c
   $$
+
+
+#### Fenced `math` code blocks
+
+````markdown
+```math
+a^2 + b^2 = c^2
+```
+````
+```math
+a^2 + b^2 = c^2
+```
