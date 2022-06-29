@@ -134,9 +134,9 @@ abc $abc xyz$ xyz
 
 ````markdown
 ```math
-a^2 + b^2 = c^2
+\{n\in\mathbb{N}:\: n \text{even}\}
 ```
 ````
 ```math
-a^2 + b^2 = c^2
+\{n\in\mathbb{N}:\: n \text{even}\}
 ```
