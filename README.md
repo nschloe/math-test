@@ -1,5 +1,17 @@
 # Test page for math in Markdown
 
+
+#### Fenced `math` code blocks
+
+````markdown
+```math
+\{n\in\mathbb{N}:\: n \text{even}\}
+```
+````
+```math
+\{n\in\mathbb{N}:\: n \text{even}\}
+```
+
 #### Inline and display math
 
 When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
