@@ -1,6 +1,5 @@
 # Test page for math in Markdown
 
-
 #### Fenced `math` code blocks
 
 ````markdown
@@ -9,6 +8,11 @@
 ```
 ````
 ```math
+\{n\in\mathbb{N}:\: n \text{even}\}
+```
+
+Compare with [xhub](https://github.com/nschloe/xhub)/KaTeX:
+```katex
 \{n\in\mathbb{N}:\: n \text{even}\}
 ```
 
