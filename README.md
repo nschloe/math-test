@@ -51,6 +51,12 @@ $$
 f(a) = \frac{1}{2\pi i} \oint_{\gamma}\frac{f(z)}{z-a}\,dz.
 $$
 
+(Same with backtick math:
+```math
+f(a) = \frac{1}{2\pi i} \oint_{\gamma}\frac{f(z)}{z-a}\,dz.
+```
+)
+
 #### Math in lists
 
 - $E = mc^2$
