@@ -43,6 +43,11 @@ $$
 D = \{z:|z-z_{0}|\leq r\}
 $$
 
+Same with backtick math:
+```math
+D = \{z:|z-z_{0}|\leq r\}
+```
+
 is completely contained in $U$. Let $f: U\to\mathbb{C}$ be a holomorphic function,
 and let $\gamma$ be the circle, oriented counterclockwise, forming the boundary of
 $D$. Then for every $a$ in the interior of $D$,
