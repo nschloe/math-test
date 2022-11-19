@@ -1,49 +1,28 @@
 # Test page for math in Markdown
 
-#### Fenced `math` code blocks
-
-````markdown
-```math
-\{n\in\mathbb{N}:\: n \text{even}\}
-```
-````
-```math
-\{n\in\mathbb{N}:\: n \text{even}\}
-```
-
-Compare with [xhub](https://github.com/nschloe/xhub)/KaTeX:
-```katex
-\{n\in\mathbb{N}:\: n \text{even}\}
-```
-
 #### Inline and display math
 
 When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
 
-$$
+```math
 x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
-$$
+```
 
 Inline math spanned over multiple lines: $\log xy =
 \log x + \log y$
 
 Display math spanned over multiple lines:
 
-$$
+```math
 F =
 G \frac{m_1m_2}{r^2}
-$$
+```
 
 ##### Cauchy's Theorem
 
 Let $U$ be an open subset of the complex plane $\mathbb{C}$, and suppose the
 closed disk $D$ defined as
 
-$$
-D = \{z:|z-z_{0}|\leq r\}
-$$
-
-Same with backtick math:
 ```math
 D = \{z:|z-z_{0}|\leq r\}
 ```
@@ -52,15 +31,9 @@ is completely contained in $U$. Let $f: U\to\mathbb{C}$ be a holomorphic functio
 and let $\gamma$ be the circle, oriented counterclockwise, forming the boundary of
 $D$. Then for every $a$ in the interior of $D$,
 
-$$
-f(a) = \frac{1}{2\pi i} \oint_{\gamma}\frac{f(z)}{z-a}\,dz.
-$$
-
-(Same with backtick math:
 ```math
 f(a) = \frac{1}{2\pi i} \oint_{\gamma}\frac{f(z)}{z-a}\,dz.
 ```
-)
 
 #### Math in lists
 
@@ -87,17 +60,17 @@ The Butcher tableau for this ERK method is
 
 Newcommand block (no output):
 
-$$
+```math
 \newcommand\myexp[1]{e^{#1}}
-$$
+```
 
 Inline math that uses the newcommand: $\myexp{i}$
 
 Display that uses the newcommand:
 
-$$
+```math
 \myexp{i}
-$$
+```
 
 #### $-confusion
 
@@ -138,32 +111,15 @@ abc $abc xyz$ xyz
 
 #### Other LaTeX commands
 
-- ```
-  $$
-  \{n\in\mathbb{N}:\: n \text{even}\}
-  $$
+- ````markdown
+  ```math
+  \{n\in\mathbb{N}:\: n\,\text{even}\}
   ```
+  ````
 
-  $$
-  \{n\in\mathbb{N}:\: n \text{even}\}
-  $$
-
-
-- ```mathdown
+- ```markdown
   a <b > c
   ```
-  $$
+  ```math
   a <b > c
-  $$
-
-
-#### Fenced `math` code blocks
-
-````markdown
-```math
-\{n\in\mathbb{N}:\: n \text{even}\}
-```
-````
-```math
-\{n\in\mathbb{N}:\: n \text{even}\}
-```
+  ```
