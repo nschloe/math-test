@@ -72,7 +72,7 @@ Display that uses the newcommand:
 \myexp{i}
 ```
 
-#### $-confusion
+#### $-confusion?
 
 - ```markdown
   An apple costs $1, a pear $.
@@ -112,10 +112,12 @@ abc $abc xyz$ xyz
 #### Other LaTeX commands
 
 - ````markdown
+  \{n\in\mathbb{N}:\: n\,\text{even}\}
+  ````
+
   ```math
   \{n\in\mathbb{N}:\: n\,\text{even}\}
   ```
-  ````
 
 - ```markdown
   a <b > c
