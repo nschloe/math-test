@@ -2,6 +2,11 @@
 
 #### Bugs
 
+- Two brackets:
+  ```markdown
+  $[a+b](c+d)$
+  ```
+  $[a+b](c+d)$
 
 - https://github.com/community/community/discussions/16993
 
