@@ -1,5 +1,16 @@
 # Test page for math in Markdown
 
+#### Bugs
+
+- https://github.com/community/community/discussions/41087:
+
+  ```markdown
+  $[x]_y a_{b}$
+  ```
+
+  $[x]_y a_{b}$
+
+
 #### Inline and display math
 
 When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
