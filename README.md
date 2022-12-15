@@ -11,6 +11,17 @@
   $[x]_y a_{b}$
 
 
+- https://github.com/community/community/discussions/39655:
+
+  ```math
+  a
+  ```
+
+  - ```math
+    \text{$b$}
+    ```
+
+
 #### Inline and display math
 
 When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
