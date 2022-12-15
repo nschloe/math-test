@@ -40,7 +40,7 @@ $$ x = 1 $$
 \frac{\sum_{i=1}^n}{2}
 ```
 
-##### Inline math and display math in same list item doesn't render https://github.com/community/community/discussions/39545
+##### Inline math and display math in same list item doesn't render https://github.com/community/community/discussions/39545 https://github.com/community/community/discussions/40775
 
 ````markdown
 - $a$
