@@ -2,53 +2,61 @@
 
 #### Bugs
 
-- Two brackets:
-  ```markdown
-  $[a+b](c+d)$
+##### Two brackets
+
+```markdown
+$[a+b](c+d)$
+```
+
+$[a+b](c+d)$
+
+##### Backslashes in `$`-math
+
+https://github.com/community/community/discussions/16993
+
+```markdown
+$\{a\}$
+```
+
+$\{a\}$
+
+##### Oversized sqrt symbol around fractions
+
+https://github.com/community/community/discussions/39251
+
+```math
+\sqrt{\frac{1}{2}}
+```
+
+##### Sum in fraction
+
+https://github.com/community/community/discussions/39432
+
+```math
+\frac{\sum_{i=1}^n}{2}
+```
+
+##### `$` in `\text`
+
+https://github.com/community/community/discussions/39655
+
+```math
+a
+```
+
+- ```math
+  \text{$b$}
   ```
-  $[a+b](c+d)$
 
-- https://github.com/community/community/discussions/16993
+##### Another funny issue
 
-  ```markdown
-  $\{a\}$
-  ```
+https://github.com/community/community/discussions/41087
 
-  $\{a\}$
+```markdown
+$[x]_y a_{b}$
+```
 
-- https://github.com/community/community/discussions/41087:
-
-  ```markdown
-  $[x]_y a_{b}$
-  ```
-
-  $[x]_y a_{b}$
-
-
-- https://github.com/community/community/discussions/39655:
-
-  ```math
-  a
-  ```
-
-  - ```math
-    \text{$b$}
-    ```
-
-
-- https://github.com/community/community/discussions/39432
-
-  ```math
-  \frac{\sum_{i=1}^n}{2}
-  ```
-
-
-- https://github.com/community/community/discussions/39251
-
-  ```math
-  \sqrt{\frac{1}{2}}
-  ```
-
+$[x]_y a_{b}$
 
 #### Inline and display math
 
@@ -161,9 +169,9 @@ abc $abc xyz$ xyz
 
 #### Other LaTeX commands
 
-- ````markdown
+- ```markdown
   \{n\in\mathbb{N}:\: n\,\text{even}\}
-  ````
+  ```
 
   ```math
   \{n\in\mathbb{N}:\: n\,\text{even}\}
