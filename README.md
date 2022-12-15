@@ -30,7 +30,7 @@ $\{a\}$
 \frac{\sum_{i=1}^n}{2}
 ```
 
-##### `$` in `\text` https://github.com/community/community/discussions/39655
+##### Dollar in `\text` https://github.com/community/community/discussions/39655
 
 ```math
 a
@@ -40,15 +40,23 @@ a
   \text{$b$}
   ```
 
-##### Another funny issue
+##### Issues with underscores
 
-https://github.com/community/community/discussions/41087
+- https://github.com/community/community/discussions/30747
 
-```markdown
-$[x]_y a_{b}$
-```
+  ```markdown
+  ${a}_b c_{d}$
+  ```
 
-$[x]_y a_{b}$
+  ${a}_b c_{d}$
+
+- https://github.com/community/community/discussions/41087
+
+  ```markdown
+  $[x]_y a_{b}$
+  ```
+
+  $[x]_y a_{b}$
 
 #### Inline and display math
 
