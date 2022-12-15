@@ -5,6 +5,10 @@
 
 - https://github.com/community/community/discussions/16993
 
+  ```markdown
+  $\{a\}$
+  ```
+
   $\{a\}$
 
 - https://github.com/community/community/discussions/41087:
