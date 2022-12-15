@@ -18,6 +18,16 @@ $\{a\}$
 
 $\{a\}$
 
+##### Dollar-math with spaces https://github.com/community/community/discussions/30747
+
+```markdown
+A
+$$ x = 1 $$
+```
+
+A
+$$ x = 1 $$
+
 ##### Oversized sqrt symbol around fractions https://github.com/community/community/discussions/39251
 
 ```math
