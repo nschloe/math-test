@@ -2,6 +2,11 @@
 
 #### Bugs
 
+
+- https://github.com/community/community/discussions/16993
+
+  $\{a\}$
+
 - https://github.com/community/community/discussions/41087:
 
   ```markdown
