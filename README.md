@@ -10,9 +10,7 @@ $[a+b](c+d)$
 
 $[a+b](c+d)$
 
-##### Backslashes in `$`-math
-
-https://github.com/community/community/discussions/16993
+##### Backslashes in `$`-math https://github.com/community/community/discussions/16993
 
 ```markdown
 $\{a\}$
@@ -20,25 +18,19 @@ $\{a\}$
 
 $\{a\}$
 
-##### Oversized sqrt symbol around fractions
-
-https://github.com/community/community/discussions/39251
+##### Oversized sqrt symbol around fractions https://github.com/community/community/discussions/39251
 
 ```math
 \sqrt{\frac{1}{2}}
 ```
 
-##### Sum in fraction
-
-https://github.com/community/community/discussions/39432
+##### Sum in fraction https://github.com/community/community/discussions/39432
 
 ```math
 \frac{\sum_{i=1}^n}{2}
 ```
 
-##### `$` in `\text`
-
-https://github.com/community/community/discussions/39655
+##### `$` in `\text` https://github.com/community/community/discussions/39655
 
 ```math
 a
